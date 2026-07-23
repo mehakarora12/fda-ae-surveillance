@@ -1,0 +1,27 @@
+Categorization Accuracy Report
+========================================
+Labeled sample size: 96
+Organ system accuracy: 69.8%
+Severity accuracy: 66.7%
+
+Mismatches (29):
+  - 20385453: predicted='hematologic' true='respiratory'
+  - 20345445: predicted='hematologic' true='dermatological'
+  - 20447418: predicted='psychiatric' true='other/unclassified'
+  - 20542562: predicted='psychiatric' true='neurological'
+  - 20365446: predicted='reproductive' true='other/unclassified'
+  - 20572497: predicted='renal' true='cardiovascular'
+  - 20390121: predicted='musculoskeletal' true='gastrointestinal'
+  - 20382037: predicted='neurological' true='respiratory'
+  - 20489478: predicted='renal' true='musculoskeletal'
+  - 20308673: predicted='ocular' true='musculoskeletal'
+  - 20423025: predicted='cardiovascular' true='musculoskeletal'
+  - 20424861: predicted='other/unclassified' true='musculoskeletal'
+  - 20346945: predicted='psychiatric' true='neurological'
+  - 20320476: predicted='renal' true='hematologic'
+  - 20305841: predicted='psychiatric' true='other/unclassified'
+  - 20422337: predicted='infectious' true='other/unclassified'
+  - 20318821: predicted='musculoskeletal' true='other/unclassified'
+  - 20368003: predicted='ophthalmological' true='other/unclassified'
+  - 20280276: predicted='gastrointestinal' true='musculoskeletal'
+  - 20392091: predicted='gastrointestinal' true='other/unclassified'

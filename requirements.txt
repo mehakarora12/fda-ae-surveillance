@@ -1,0 +1,25 @@
+# ---- Phase 1a: Data Ingestion (install this first) ----
+requests>=2.31
+python-dotenv>=1.0
+pandas>=2.2
+tenacity>=8.2
+tqdm>=4.66
+pyarrow>=15.0        # parquet read/write for pandas
+
+# ---- Phase 1b: LLM Categorization (install when we get there) ----
+groq>=0.9
+
+# ---- Phase 2: Vector Store ----
+# sentence-transformers>=2.7
+# chromadb>=0.5
+
+# ---- Phase 3: Forecasting & Anomaly Detection ----
+# prophet>=1.1
+# scikit-learn>=1.4
+
+# ---- Phase 4: RAG Diagnostics ----
+# (uses groq + chromadb already listed above)
+
+# ---- Phase 6: Dashboard ----
+streamlit>=1.35
+plotly>=5.22

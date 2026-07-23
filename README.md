@@ -133,9 +133,6 @@ Four tabs:
   to check recall against; 15/37 anomalies were excluded as genuinely ambiguous rather than
   forced into a score.
 - Ground-truth labeling for evaluation was done via an independent rule-based/LLM
-  cross-check, not formal human annotation. Full methodology and honesty caveats are in
-  [`BUILD_LOG.md`](BUILD_LOG.md).
+  cross-check, not formal human annotation. 
 
-## License
 
-MIT

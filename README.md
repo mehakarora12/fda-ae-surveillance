@@ -5,7 +5,7 @@ An end-to-end drug safety surveillance pipeline built on **real FDA adverse even
 spikes in report volume, and uses RAG to generate grounded, plain-English explanations for
 each anomaly — then evaluates the whole system with quantified metrics.
 
-**[Live Demo](#)** ← *add your Streamlit Cloud URL here once deployed*
+**[Live Demo](https://fda-ae-surveillance-f7stogdwyjhjzxxy9i6gu4.streamlit.app/)**
 
 ---
 

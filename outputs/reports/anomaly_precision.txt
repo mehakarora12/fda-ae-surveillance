@@ -1,7 +1,7 @@
-Anomaly Precision Report
+﻿Anomaly Precision Report
 ========================================
 Labeled anomalies: 22 / 37 total flagged
 Confirmed real signals: 16
 Precision: 72.7%
 
-Note: this measures precision (of flagged anomalies, how many are real), not recall (we don't have an independent list of ALL real signals in this window to check against) � be precise about which metric you cite.
+Note: this measures precision (of flagged anomalies, how many are real), not recall (we don't have an independent list of ALL real signals in this window to check against) — be precise about which metric you cite.

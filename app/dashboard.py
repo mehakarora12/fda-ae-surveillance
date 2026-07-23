@@ -228,13 +228,13 @@ with tab_explanations:
 with tab_eval:
     st.subheader("Categorization accuracy (Phase 1b vs. independent labeling)")
     if CATEGORIZATION_SCORE_PATH.exists():
-        st.code(CATEGORIZATION_SCORE_PATH.read_text())
+        st.code(CATEGORIZATION_SCORE_PATH.read_text(encoding="utf-8", errors="replace"))
     else:
         missing_data_notice("python src/evaluation.py sample-for-labeling --n 100  (then label it, then score-categorization)")
 
     st.subheader("Anomaly precision (Phase 3 vs. documented real-world signals)")
     if ANOMALY_SCORE_PATH.exists():
-        st.code(ANOMALY_SCORE_PATH.read_text())
+        st.code(ANOMALY_SCORE_PATH.read_text(encoding="utf-8", errors="replace"))
     else:
         missing_data_notice("python src/evaluation.py sample-anomalies  (then label it, then score-anomalies)")
 
